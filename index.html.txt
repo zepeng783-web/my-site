@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macs 教兒子技術分析的 | Portaly</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+        }
+        .bg-glow {
+            background: radial-gradient(circle at 50% 20%, rgba(59, 130, 246, 0.15), transparent 70%);
+        }
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-glow flex flex-col items-center justify-between p-4 sm:p-6">
+
+    <!-- Main Container -->
+    <main class="w-full max-w-md mx-auto flex flex-col items-center space-y-6 pt-6 pb-12">
+        
+        <!-- Header Section -->
+        <header class="flex flex-col items-center text-center space-y-3 w-full">
+            <!-- Avatar -->
+            <div class="relative group">
+                <div class="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full blur opacity-50 group-hover:opacity-100 transition duration-300"></div>
+                <img class="relative w-28 h-28 rounded-full object-cover border-2 border-slate-700 shadow-xl" 
+                     src="https://img.portaly.cc/FhhGMSAW_d1wmjZEaw3nynsAApvQyIWuKlyjmJzHBts/rs:fill:3840/q:75/aHR0cHM6Ly9maXJlYmFzZXN0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vdjAvYi9wb3J0YWx5LWNhOWUxLmFwcHNwb3QuY29tL28vb0ZuTG5GaEtqMUlibXZxT053NjklMkZhdmF0YXI_YWx0PW1lZGlhJnRva2VuPWU0NWJiMTlkLTI1NzUtNDQwOC04MDg3LTU1YTFjMjQ0ODBmZA" 
+                     alt="Macs 教兒子技術分析的">
+            </div>
+
+            <!-- Title & Bio -->
+            <h1 class="text-2xl font-bold tracking-tight text-white pt-2">Macs 教兒子技術分析的</h1>
+            <p class="text-sm text-slate-300 px-4 leading-relaxed">
+                讓4000+群友每天看對市場方向<br>
+                我連兒子都教會技術分析了 你一定也會
+            </p>
+
+            <!-- Social Links Bar -->
+            <div class="flex items-center justify-center space-x-4 pt-2">
+                <!-- Line -->
+                <a href="https://line.me/R/ti/p/@macs4134" target="_blank" rel="noopener" 
+                   class="w-10 h-10 rounded-full glass-card flex items-center justify-center text-emerald-400 hover:bg-emerald-500 hover:text-white transition duration-200 shadow-md">
+                    <i class="fa-brands font-bold fa-line text-xl"></i>
+                </a>
+                <!-- YouTube -->
+                <a href="https://youtube.com/@macs4134?si=-HPHFXdzDJ2Q9xMk" target="_blank" rel="noopener" 
+                   class="w-10 h-10 rounded-full glass-card flex items-center justify-center text-red-500 hover:bg-red-500 hover:text-white transition duration-200 shadow-md">
+                    <i class="fa-brands fa-youtube text-lg"></i>
+                </a>
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/macshuang4134?igsh=MWp6cmRxbXVtMWNxaA%3D%3D&utm_source=qr" target="_blank" rel="noopener" 
+                   class="w-10 h-10 rounded-full glass-card flex items-center justify-center text-pink-500 hover:bg-pink-500 hover:text-white transition duration-200 shadow-md">
+                    <i class="fa-brands fa-instagram text-lg"></i>
+                </a>
+                <!-- Official Web -->
+                <a href="https://www.youtube.com/@Bisancos" target="_blank" rel="noopener" 
+                   class="w-10 h-10 rounded-full glass-card flex items-center justify-center text-blue-400 hover:bg-blue-500 hover:text-white transition duration-200 shadow-md">
+                    <i class="fa-solid fa-globe text-lg"></i>
+                </a>
+            </div>
+        </header>
+
+        <!-- Main Call To Action Button -->
+        <section class="w-full">
+            <a href="https://line.me/R/ti/p/@macs4134" target="_blank" rel="noopener" 
+               class="block w-full py-4 px-6 text-center font-semibold text-white bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 rounded-xl shadow-lg hover:shadow-emerald-500/20 transform hover:-translate-y-0.5 transition duration-200">
+                Line@找我➡️ 領取「最強K線指標」
+            </a>
+        </section>
+
+        <!-- Media & Article Section -->
+        <section class="w-full space-y-4">
+            <!-- News Card -->
+            <a href="https://money.udn.com/money/story/11799/9589808" target="_blank" rel="noopener" 
+               class="block glass-card rounded-2xl overflow-hidden hover:border-slate-500 transition duration-200 shadow-lg group">
+                <div class="relative w-full h-48 overflow-hidden bg-slate-800">
+                    <img class="w-full h-full object-cover group-hover:scale-105 transition duration-300" 
+                         src="https://img.portaly.cc/8o80lG7QteVbpISAIr1JCxYpGhX4wdqQKoDFqCAF2Eg/rs:fill:3840/q:75/aHR0cHM6Ly9maXJlYmFzZXN0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vdjAvYi9wb3J0YWx5LWNhOWUxLmFwcHNwb3QuY29tL28vb0ZuTG5GaEtqMUlibXZxT053NjklMkZibG9ja3MlMkZKSm1iQTZpWFM1ekNRRVZMS3lXOCUyRml0ZW1NYXAuR2k2di14a0FFRlRmVGlnVHpqSk00LmltYWdlP2FsdD1tZWRpYSZ0b2tlbj03N2FiMTIzYy1kZTY3LTQwOTMtYTFiMi0wNjNjMGEyYzNjODQ" 
+                         alt="經濟日報採訪">
+                </div>
+                <div class="p-4 flex justify-between items-center">
+                    <span class="text-base font-medium text-slate-200">新聞採訪</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square text-xs text-slate-400 group-hover:text-white"></i>
+                </div>
+            </a>
+
+            <!-- Image Gallery Card -->
+            <div class="glass-card rounded-2xl overflow-hidden p-3 shadow-lg">
+                <img class="w-full rounded-xl object-cover" 
+                     src="https://img.portaly.cc/vJ5vUIMdZ9p9A2Z0QlV3C3GmR21hVyVmh0ODfp4Olc8/rs:fill:3840/q:75/aHR0cHM6Ly9maXJlYmFzZXN0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vdjAvYi9wb3J0YWx5LWNhOWUxLmFwcHNwb3QuY29tL28vb0ZuTG5GaEtqMUlibXZxT053NjklMkZibG9ja3MlMkZadWdLa2pQMzd2ODlwdHF3bXVDRSUyRml0ZW1NYXAuM3lHMVUwM1htZi1LdnFWVUdMSWc3LmltYWdlP2FsdD1tZWRpYSZ0b2tlbj1iOTExNDIwNi1jYWY0LTQ3M2QtOWE5ZC02MjBiZDdjNmZlYmM" 
+                     alt="技術分析展示">
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="pb-6 text-center">
+        <a href="https://portaly.cc" target="_blank" rel="noopener" class="text-xs text-slate-500 hover:text-slate-400 transition">
+            Powered by Portaly.cc
+        </a>
+    </footer>
+
+</body>
+</html>
